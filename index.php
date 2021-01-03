@@ -50,8 +50,8 @@
                                 <td><?php echo $result['description']; ?></td>
                                 <td><?php echo date('Y-m-d', strtotime( $result['created_at']) ); ?></td>
                                 <td>
-                                    <a href="edit.php?id=<?php echo $result['id'] ?>" role="button" class="btn btn-sm btn-info">Edit</a>
-                                    <a href="delete.php?id=<?php echo $result['id'] ?>" role="button" class="btn btn-sm btn-danger">Del</a>
+                                    <a href="edit.php?id=<?php echo $result['id']; ?>" role="button" class="btn btn-sm btn-info">Edit</a>
+                                    <a href="delete.php?id=<?php echo $result['id']; ?>" role="button" class="btn btn-sm btn-danger">Del</a>
                                 </td>
                             </tr>
 
